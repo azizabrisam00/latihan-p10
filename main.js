@@ -35,7 +35,7 @@ function kartu(k) {
 function tampil() {
   const hasil = saring();
   galeri.replaceChildren(...hasil.map(kartu));
-  jumlah.textContent = `Menampilkan ${KARYA.length} dari ${KARYA.length} karya`;
+  jumlah.textContent = 'Menampilkan ' + hasil.length + ' dari ' + KARYA.length + ' karya';
 }
  
 function pasangDetail() {
